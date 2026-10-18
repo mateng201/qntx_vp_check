@@ -1,0 +1,5 @@
+{
+  "extends": "@qntx/tsconfig/configs/bun.json",
+  "include": ["src"]
+}
+  

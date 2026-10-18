@@ -1,0 +1,16 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "name": "mobile-shell",
+  "projectType": "application",
+  "root": "apps/mobile-shell",
+  "sourceRoot": "apps/mobile-shell/src",
+  "tags": ["type:app", "platform:mobile"],
+  "targets": {
+    "check": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "bun run --cwd apps/mobile-shell check"
+      }
+    }
+  }
+}
